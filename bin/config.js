@@ -37,10 +37,9 @@ var argv = require('yargs')
     //parse command
     .command('parse:', 'Parse skit app.config.json files')
     .command('debug:', 'Debug mode')
-
     .help('h')
     .alias('h', 'help')
-    .epilog(chalk.white.bold.bgGreen('by david.yanez v1.0.0 UBS.AG'))
+    .epilog(chalk.white.bold.bgGreen('by david.yanez v1.0.0 AG'))
     .argv;
 
 process.env.NODE_ENV = argv.env
